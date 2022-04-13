@@ -1,6 +1,6 @@
 package ru.gb.kazarezov.homework_lesson_1;
 
-public class compareNumbers {
+public class Task_5 {
 
     public static void compareNumbers() {
 

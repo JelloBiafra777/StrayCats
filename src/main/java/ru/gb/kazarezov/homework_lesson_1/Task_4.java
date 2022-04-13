@@ -1,6 +1,6 @@
 package ru.gb.kazarezov.homework_lesson_1;
 
-public class printColor {
+public class Task_4 {
 
     public static void printColor () {
 

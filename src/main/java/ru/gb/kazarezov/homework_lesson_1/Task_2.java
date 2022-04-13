@@ -1,6 +1,6 @@
 package ru.gb.kazarezov.homework_lesson_1;
 
-public class printThreeWords {
+public class Task_2 {
 
     public static void printThreeWords() {
 

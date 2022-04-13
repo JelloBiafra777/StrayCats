@@ -1,6 +1,6 @@
 package ru.gb.kazarezov.homework_lesson_1;
 
-public class checkSumSign {
+public class Task_3 {
 
     public static void checkSumSign() {
 

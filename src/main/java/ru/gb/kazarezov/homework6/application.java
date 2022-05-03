@@ -15,9 +15,9 @@ public class application {
         dog.running (50);
         dog.swimming(250);
 
-        System.out.println("Total amount of animals: " + Animals.animalCount);
-        System.out.println("Total amount of cats: " + Animals.catCount);
-        System.out.println("Total amount of dogs: " + Animals.dogCount);
+        System.out.println("Total amount of animals: " + Animals.getAnimalCount());
+        System.out.println("Total amount of cats: " + Cats.getCatCount());
+        System.out.println("Total amount of dogs: " + Dogs.getDogCount());
 
 
     }

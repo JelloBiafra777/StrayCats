@@ -2,9 +2,8 @@ package ru.gb.kazarezov.homework6;
 
 public abstract class Animals {
 
-    protected static int catCount;
-    protected static int dogCount;
-    protected static int animalCount;
+    private static int animalCount;
+
     private String name;
     private int age;
 
@@ -28,6 +27,10 @@ public abstract class Animals {
 
     public void setAge(int age) {
         this.age = age;
+    }
+
+    public static int getAnimalCount() {
+        return animalCount;
     }
 
     public abstract void running(int length);

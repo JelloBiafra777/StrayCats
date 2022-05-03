@@ -2,9 +2,15 @@ package ru.gb.kazarezov.homework6;
 
 public class Cats extends Animals {
 
+    private static int catCount;
+
     public Cats(String name, int age) {
         super(name, age);
         catCount = catCount + 1;
+    }
+
+    public static int getCatCount() {
+        return catCount;
     }
 
     @Override

@@ -1,9 +1,17 @@
 package ru.gb.kazarezov.homework6;
 
+
+
 public class Dogs extends Animals {
+    private static int dogCount;
+
     public Dogs(String name, int age) {
         super(name, age);
         dogCount = dogCount + 1;
+    }
+
+    public static int getDogCount() {
+        return dogCount;
     }
 
     @Override
@@ -28,4 +36,7 @@ public class Dogs extends Animals {
             System.out.println();
         }
     }
+
+
+
 }

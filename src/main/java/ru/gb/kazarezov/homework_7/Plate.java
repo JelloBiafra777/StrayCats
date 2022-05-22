@@ -12,18 +12,18 @@ public class Plate {
         return volume;
     }
 
-    public void setVolume(int volume) {
-        this.volume = volume;
-    }
-
-    public void decreaseFood (int count) {
-        this.volume = this.volume - count;
+    public void decreaseFood(int count) {
+        if ((this.volume - count) >= 0) {
+            this.volume = this.volume - count;
+        } else {
+            System.out.println("Not enough food in the plate !");
+        }
 
     }
     public void putFoodToPlate(int quantity) {
         this.volume = this.volume + quantity;
     }
-    }
+}
 
 
 

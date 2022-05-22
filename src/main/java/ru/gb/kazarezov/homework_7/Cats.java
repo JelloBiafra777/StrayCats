@@ -2,8 +2,8 @@ package ru.gb.kazarezov.homework_7;
 
 public class Cats {
 
-    private String name;
-    private int appetite;
+    private final String name;
+    private final int appetite;
     private boolean satiety;
 
     public String getName() {
@@ -12,14 +12,6 @@ public class Cats {
 
     public int getAppetite() {
         return appetite;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public void setAppetite(int appetite) {
-        this.appetite = appetite;
     }
 
     public boolean isSatiety() {

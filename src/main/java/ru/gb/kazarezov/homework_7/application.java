@@ -22,7 +22,7 @@ public class application {
 
     public static void main(String[] args) {
 
-        String continueConfirmaion = "Y";
+        String continueConfirmaion;
         do {
             printAllInformation();
             System.out.println("Should we start to feed the cats? Y/N ");
@@ -52,7 +52,7 @@ public class application {
                 continue;
             }
             if (kitty.getAppetite() <= plate.getVolume()) {
-                plate.setVolume(plate.getVolume() - kitty.getAppetite());
+                plate.decreaseFood(kitty.getAppetite());
                 System.out.println("Kitty named  " + kitty.getName() + " eats " + kitty.getAppetite() + " foods");
                 System.out.println("current plate status is " + plate.getVolume() + " foods");
                 kitty.setSatiety(true);

@@ -24,9 +24,7 @@ public class task_1 {
         linkedList.add("Second");
 
 
-        HashSet hs = new HashSet(linkedList);
-
-        System.out.println("Unique words in the collection are: " + hs);
+        System.out.println("Unique words in the collection are: " + new HashSet(linkedList));
         System.out.println();
 
         ListIterator<String> iter = linkedList.listIterator();
